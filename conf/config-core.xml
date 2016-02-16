@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config-core namespace="myapp-switches">
+	<!--sheapMapFile>/configcore.shm</sheapMapFile-->
+    <sheapPageSize>50000</sheapPageSize>
+	<databaseFile>/realm.db3</databaseFile>
+	<enableAutoRefresh>true</enableAutoRefresh><!-- enable auto refresh -->
+	<autoRefreshWaitSeconds>20</autoRefreshWaitSeconds><!-- no. of seconds to wait until next autoRefreshTimestamp.txt download -->
+	<!--threaded>true</threaded-->
+	
+	<resourceService>
+                <uri>https://github.com/tarachandverma/node-switch/conf</uri>
+                <timeoutSeconds>5</timeoutSeconds>
+    </resourceService>
+	
+	<services>
+		<service id="SWITCH-CONFIG" name="switchConfig">
+                 	<param name="config-xml">switch-config.xml</param>
+        	</service>
+	</services>
+	
+</config-core>
+

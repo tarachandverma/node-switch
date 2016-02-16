@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<switch-config nextRefreshTime="Mon Apr 21 14:10:00 2014" nextRefreshServerRegex=".*">
+        <modules>
+	        <module id="module-1">
+                    <switch name="uuid" type="string">dj_chandt</switch>
+	        </module>
+	        <!--module id="module-2">
+                    <switch name="switch1">on</switch>
+                    <switch name="switch2">on</switch>
+	        </module>
+	        <module id="module-3">
+                    <switch name="switch1">off</switch>
+                    <switch name="switch2">off</switch>
+	        </module-->	        
+        </modules>        
+</switch-config>
