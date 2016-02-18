@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<switch-config nextRefreshTime="Mon Apr 21 14:10:00 2014" nextRefreshServerRegex=".*">
+<switch-config nextRefreshTime="Wed Feb 17 23:13:06 2016" nextRefreshServerRegex=".*">
         <modules>
 	        <module id="module-1">
                     <switch name="uuid" type="string">dj_chandtt</switch>
