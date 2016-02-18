@@ -8,7 +8,7 @@
 	<!--threaded>true</threaded-->
 	
 	<resourceService>
-                <uri>https://github.com/tarachandverma/node-switch/conf</uri>
+                <uri>https://raw.githubusercontent.com/tarachandverma/node-switch/master/remote</uri>
                 <timeoutSeconds>5</timeoutSeconds>
     </resourceService>
 	
