@@ -62,10 +62,14 @@ NodeJS API :
     
 If you want to implement switch feature in c/c++ application (other then nodeJS), simply build the stand-alone C libswitch library (static) simply run ( this will build libswitch.so in current directory /tmp/libswitch) :
 
-    make
-    make test
-    ./test
-
+	# build
+	wget https://nodejs.org/dist/v0.10.18/node-v0.10.18.tar.gz
+	tar -zxvf node-v0.10.18.tar.gz
+	node-gyp rebuild --nodedir=./node-v0.10.18
+	
+	# test
+	node test/test.js
+	
 To link libswitch.a in your c/c++ application, add following line in your source-code :
 
      #include "libswitch_conf_ext.h"
